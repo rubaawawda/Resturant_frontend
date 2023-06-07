@@ -1,0 +1,64 @@
+.websiteHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.websiteHeader>.left {
+  display: flex;
+  align-items: center;
+}
+
+.websiteHeader>.left>h1 {
+  font-size: 18px;
+  color: #63358d;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0;
+  margin-right: 20px;
+  font-family: cursive;
+}
+.Cart{
+  display: flex;
+  margin-left: 18px;
+}
+
+
+.websiteHeader>.left>h1>img {
+  height: 35px;
+  width: auto;
+  margin-right: 5px;
+}
+
+.websiteHeader .right nav {
+  display: flex;
+}
+
+.websiteHeader .right nav a {
+  background: unset;
+  border: unset;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 9px 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.websiteHeader .right nav a:hover {
+  text-shadow: -1px 2px 3px #777777;
+}
+
+.websiteHeader .right nav a:active {
+  text-shadow: -1px 2px 3px #333;
+}
+
+.websiteHeader .right nav a.current {
+  background-color: #63358d;
+  border-radius: 5px;
+  color: white;
+}
